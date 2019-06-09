@@ -1,4 +1,50 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  width: 90%;
+}
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 15px;
+  display: block;
 }
+
+div {
+  width: 90%;
+  background-color: #dadada;
+  float: left;
+  margin: 1% 0;
+  width: 90%;
+  padding: 2%;
+  margin: 0%, 0%, 5%, 5%;
+  text-align: left;
+}
+
+.emphasis {
+  font-size: 120%;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-family: serif;
+}
+
+@media screen and (min-width: 375px) {
+  div {
+    margin-top: 2%;
+  }
+
+@media screen and (min-width: 1024px) {
+  div {
+      box-sizing: inline;
+      width: 50%;
+    }
+
+@media screen and (min-width: 1199px) {
+    div {
+        margin: 1% 0;
+        width: 20%;
+      }
