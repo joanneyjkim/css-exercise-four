@@ -9,9 +9,26 @@ body {
   display: block;
 }
 
+.emphasis {
+  font-size: 120%;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  font-size: 120%;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
 div {
   width: 90%;
   background-color: #dadada;
+  display: inline-block;
   float: left;
   margin: 1% 0;
   width: 90%;
@@ -20,13 +37,6 @@ div {
   text-align: left;
 }
 
-.emphasis {
-  font-size: 120%;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  width: 100%;
-}
 
 h1 {
   font-family: serif;
@@ -36,15 +46,18 @@ h1 {
   div {
     margin-top: 2%;
   }
+}
 
 @media screen and (min-width: 1024px) {
   div {
       box-sizing: inline;
       width: 50%;
     }
+  }
 
 @media screen and (min-width: 1199px) {
     div {
         margin: 1% 0;
         width: 20%;
       }
+}
