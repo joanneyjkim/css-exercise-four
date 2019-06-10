@@ -19,7 +19,6 @@ body {
 div {
   width: 90%;
   background-color: #dadada;
-  display: inline-block;
   float: left;
   margin: 1% 0;
   width: 90%;
@@ -31,24 +30,24 @@ div {
 h1 {
   text-align: left;
   position: absolute;
+  padding: 2%;
 }
 
 @media screen and (min-width: 375px) {
   .preview {
-    margin-top: 2%;
+    margin-top: 5%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .preview {
-      box-sizing: inline;
-      width: 45%;
+      width: 50%;
     }
   }
 
 @media screen and (min-width: 1199px) {
     .preview {
-        margin: 1% 0;
+        margin: 2% 0;
         width: 25%;
       }
 }
